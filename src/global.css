@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scroll-pls{
+  overflow: scroll;
+}
+
+.no-scroll-pls::-webkit-scrollbar {
+    display: none;
+  }
+  
